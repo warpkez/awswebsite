@@ -1,0 +1,20 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amita&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.robotomono {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.amita {
+    font-family: 'Amita', cursive;
+}
+
+.dancing {
+    font-family: 'Dancing Script', cursive;
+}
