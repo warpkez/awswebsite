@@ -21,4 +21,4 @@ jobs:
         run: npm install
       
       - name: Minify tailwindcss
-        run: npx tailwindcss -i ./src/tailwind.css -o ./css/tailwind.css -o --minify
+        run: npx tailwindcss -i ./src/tailwind.css -o ./css/tailwind.css --minify
