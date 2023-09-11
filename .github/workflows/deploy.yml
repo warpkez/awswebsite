@@ -33,6 +33,5 @@ jobs:
       - name: Upload files to S3
         run: |
           mkdir temp ; mv index.html temp/index.html ; mv css temp/css ; mv images temp/images
-          #aws s3 cp index.html s3://${{ secrets.AWS_S3_BUCKET_NAME }}/
           aws s3 sync temp/ s3://${{ secrets.AWS_S3_BUCKET_NAME }}/ --delete
-          #aws s3 sync ./images s3://${{ secrets.AWS_S3_BUCKET_NAME }}/ --delete
+          rm -rf temp
