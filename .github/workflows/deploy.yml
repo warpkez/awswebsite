@@ -28,7 +28,7 @@ jobs:
           mkdir -p deploy/images
           cp index.html ./deploy/index.html
           cp error.html ./deploy/error.html
-          cp -r images ./deploy/images
+          cp  images/* ./deploy/images/
           cp css/fonts.css ./deploy/css/fonts.css
           npx tailwindcss -i ./src/tailwind.css -o ./deploy/css/tailwind.css --minify
 
