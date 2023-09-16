@@ -5,7 +5,7 @@ on:
     tags:
       - 'v*' # Run only when a tag is pushed with a version format like 'v1.0.0'
 
-permission:
+permissions:
   id-token: write
   contents: read
 
